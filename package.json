@@ -1,0 +1,43 @@
+{
+    "name": "hello-jsii",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "jsii",
+        "build:watch": "jsii -w",
+        "package": "jsii-pacmak",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "jsii": {
+        "outdir": "dist",
+        "targets": {
+            "python": {
+                "distName": "acme.hello-jsii",
+                "module": "acme.hello_jsii"
+            },
+            "java": {
+                "package": "com.acme.hello",
+                "maven": {
+                    "groupId": "com.acme.hello",
+                    "artifactId": "hello-jsii"
+                }
+            },
+            "dotnet": {
+                "namespace": "Acme.HelloNamespace",
+                "packageId": "Acme.HelloPackage"
+            }
+        }
+    },
+    "keywords": [],
+    "author": "Rajesh Kannan Poraiyan",
+    "repository": {
+        "url": "https://github.com/serverless-first/hello-jsii.git"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "jsii": "^0.21.2",
+        "jsii-pacmak": "^0.21.2"
+    }
+}

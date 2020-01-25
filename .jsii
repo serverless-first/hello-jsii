@@ -1,0 +1,45 @@
+{
+  "author": {
+    "name": "Rajesh Kannan Poraiyan",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "hello-jsii",
+  "homepage": "https://github.com/serverless-first/hello-jsii.git",
+  "jsiiVersion": "0.21.2 (build 4370756)",
+  "keywords": [],
+  "license": "ISC",
+  "name": "hello-jsii",
+  "readme": {
+    "markdown": "# hello-jsii"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serverless-first/hello-jsii.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "dotnet": {
+      "namespace": "Acme.HelloNamespace",
+      "packageId": "Acme.HelloPackage"
+    },
+    "java": {
+      "maven": {
+        "artifactId": "hello-jsii",
+        "groupId": "com.acme.hello"
+      },
+      "package": "com.acme.hello"
+    },
+    "js": {
+      "npm": "hello-jsii"
+    },
+    "python": {
+      "distName": "acme.hello-jsii",
+      "module": "acme.hello_jsii"
+    }
+  },
+  "types": {},
+  "version": "1.0.0",
+  "fingerprint": "M+x0hK3d+vXow+ecgfxJuClB23yLMfxLudNWXp+wTvI="
+}
