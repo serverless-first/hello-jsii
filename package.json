@@ -38,6 +38,6 @@
     "license": "ISC",
     "devDependencies": {
         "jsii": "^0.21.2",
-        "jsii-pacmak": "^0.21.2"
+        "jsii-pacmak": "^1.69.0"
     }
 }
